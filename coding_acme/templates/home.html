@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="container">
+        <h1>
+            Welcome to CodingACME's Employee Login Portal
+        </h1>
+        <a href="{{ url_for('register') }}">
+            <button class="btn btn-success">Register Here!</button>
+        </a>
+    </div>
+
+{% endblock content %}
